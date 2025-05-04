@@ -190,7 +190,7 @@ const SpeechesDiagram = () => {
             : boxRef.current.clientHeight * 0.9;
         const newWidth =
           !isLargerMobile && isSmallHeight
-            ? boxRef.current.clientWidth * 1.68
+            ? boxRef.current.clientWidth * 1.36
             : boxRef.current.clientWidth;
 
         setContainerHeight(newHeight);

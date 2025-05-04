@@ -55,18 +55,16 @@ function App() {
   useEffect(() => {
     // to prevent timing and render problems: refresh ScrollTrigger
     // double refresh as a workaround
-    const handleLoad = () => {
-      ScrollTrigger.refresh();
-      setTimeout(() => {
+    const waitForRefresh = () => {
+      if (document.readyState === "complete") {
         ScrollTrigger.refresh();
-      }, 500);
+        setTimeout(() => ScrollTrigger.refresh(), 500);
+      } else {
+        setTimeout(waitForRefresh, 500);
+      }
     };
 
-    if (document.readyState === "complete") {
-      handleLoad();
-    } else {
-      window.addEventListener("load", handleLoad);
-    }
+    waitForRefresh();
 
     // define scroll listener
     // to show an active indicator (a dot on the navigation button)
