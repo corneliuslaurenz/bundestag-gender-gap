@@ -1,0 +1,142 @@
+[
+  {
+    "position": 1,
+    "topic": "Wirtschaft",
+    "percentage": 91.89
+  },
+  {
+    "position": 2,
+    "topic": "Industrie",
+    "percentage": 89.93
+  },
+  {
+    "position": 3,
+    "topic": "Verkehr und Infrastruktur",
+    "percentage": 85.01
+  },
+  {
+    "position": 4,
+    "topic": "Corona",
+    "percentage": 84.66
+  },
+  {
+    "position": 5,
+    "topic": "Krieg",
+    "percentage": 83.55
+  },
+  {
+    "position": 6,
+    "topic": "Strafe und Verbrechen",
+    "percentage": 83.3
+  },
+  {
+    "position": 7,
+    "topic": "Sicherheit",
+    "percentage": 81.41
+  },
+  {
+    "position": 8,
+    "topic": "Unternehmen und Wettbewerb",
+    "percentage": 80.82
+  },
+  {
+    "position": 9,
+    "topic": "Rente und Sozialpolitik",
+    "percentage": 79.92
+  },
+  {
+    "position": 10,
+    "topic": "Kultur",
+    "percentage": 78.81
+  },
+  {
+    "position": 11,
+    "topic": "Kultur",
+    "percentage": 78.6
+  },
+  {
+    "position": 12,
+    "topic": "Datenschutz und Digitalisierung",
+    "percentage": 78.15
+  },
+  {
+    "position": 13,
+    "topic": "Wohnungsmarkt",
+    "percentage": 77.95
+  },
+  {
+    "position": 14,
+    "topic": "Familienrecht",
+    "percentage": 77.4
+  },
+  {
+    "position": 15,
+    "topic": "Arbeitsmarkt",
+    "percentage": 77.34
+  },
+  {
+    "position": 16,
+    "topic": "Schwangerschaftsabbruch",
+    "percentage": 75.82
+  },
+  {
+    "position": 17,
+    "topic": "Umweltschutz",
+    "percentage": 75.62
+  },
+  {
+    "position": 18,
+    "topic": "Energie und Klima",
+    "percentage": 74.92
+  },
+  {
+    "position": 19,
+    "topic": "Entwicklungspolitik",
+    "percentage": 74.44
+  },
+  {
+    "position": 20,
+    "topic": "Russland-Ukraine-Konflikt",
+    "percentage": 73.77
+  },
+  {
+    "position": 21,
+    "topic": "Sport",
+    "percentage": 71.32
+  },
+  {
+    "position": 22,
+    "topic": "Bildungspolitik",
+    "percentage": 71.0
+  },
+  {
+    "position": 23,
+    "topic": "Gesundheitsrisiken",
+    "percentage": 69.61
+  },
+  {
+    "position": 24,
+    "topic": "Verbraucherpolitik",
+    "percentage": 69.36
+  },
+  {
+    "position": 25,
+    "topic": "Gleichberechtigung",
+    "percentage": 68.49
+  },
+  {
+    "position": 26,
+    "topic": "Gesundheitswesen",
+    "percentage": 60.65
+  },
+  {
+    "position": 27,
+    "topic": "Kinder und Familienpolitik",
+    "percentage": 53.76
+  },
+  {
+    "position": 28,
+    "topic": "Jugend und Förderung",
+    "percentage": 51.2
+  }
+]

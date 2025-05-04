@@ -1,0 +1,43 @@
+[
+    {
+        "text_length": 25,
+        "percentage_woman_speeches": 22,
+        "percentage_man_speeches": 78
+    },
+    {
+        "text_length": 50,
+        "percentage_woman_speeches": 10,
+        "percentage_man_speeches": 90
+    },
+    {
+        "text_length": 75,
+        "percentage_woman_speeches": 12,
+        "percentage_man_speeches": 88
+    },
+    {
+        "text_length": 100,
+        "percentage_woman_speeches": 22,
+        "percentage_man_speeches": 78
+    },
+    {
+        "text_length": 125,
+        "percentage_woman_speeches": 26,
+        "percentage_man_speeches": 74
+    },
+    {
+        "text_length": 150,
+        "percentage_woman_speeches": 0,
+        "percentage_man_speeches": 100
+    },
+    {
+        "text_length": 175,
+        "percentage_woman_speeches": 0,
+        "percentage_man_speeches": 100
+    },
+    {
+        "text_length": 200,
+        "percentage_woman_speeches": 0,
+        "percentage_man_speeches": 100
+    }
+    
+]
