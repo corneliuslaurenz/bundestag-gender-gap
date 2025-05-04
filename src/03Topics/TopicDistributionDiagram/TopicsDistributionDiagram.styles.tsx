@@ -17,26 +17,13 @@ export const h1AlternativeStyle: SxProps = {
 export const wrapperStyle: SxProps = {
   backgroundColor: "#AC614A",
   width: "100%",
-  height: "200vh",
+  height: "fit-content",
   position: "relative",
   overflow: "hidden",
   display: "flex",
   textAlign: "center",
   flexDirection: "column",
   alignItems: "center",
-
-  "@media (min-width: 950px) and (max-height: 900px)": {
-    height: "220vh",
-  },
-  "@media (min-width: 950px) and (max-height: 800px)": {
-    height: "240vh",
-  },
-  "@media (min-width: 950px) and (max-height: 700px)": {
-    height: "260vh",
-  },
-  "@media (min-width: 950px) and (max-height: 600px)": {
-    height: "290vh",
-  },
 };
 
 export const headingContainerStyle: SxProps = {
@@ -56,6 +43,6 @@ export const subHeadingContainerStyle: SxProps = {
 };
 
 export const svgWrapperStyle: SxProps = {
-  marginBottom: "40vh",
+  marginBottom: "24vh",
   width: "84vw",
 };

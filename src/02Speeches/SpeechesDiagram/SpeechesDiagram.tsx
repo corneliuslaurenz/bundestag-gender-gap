@@ -53,7 +53,7 @@ const SpeechesDiagram = () => {
   const isSmallHeight = !useIsLargeHeight(800);
   const isDesktop = useIsDesktop(950);
   const isTablet = useIsDesktop(650);
-  const isMobile = useIsDesktop(400);
+  const isLargerMobile = useIsDesktop(400);
   const isLargeScreen = useIsDesktop(1400);
 
   const svgRef = useRef<SVGSVGElement | null>(null);
@@ -73,7 +73,7 @@ const SpeechesDiagram = () => {
 
   // calculate icon spacing.
   const calculateSpacing = useCallback(() => {
-    const subtractPixel = isLargeScreen ? 0 : !isMobile ? -100 : 120;
+    const subtractPixel = isLargeScreen ? 0 : !isLargerMobile ? -100 : 120;
     if (!containerWidth || !containerHeight)
       return { spacingX: 0, spacingY: 0 };
 
@@ -86,7 +86,7 @@ const SpeechesDiagram = () => {
     containerWidth,
     iconHeightScaled,
     isLargeScreen,
-    isMobile,
+    isLargerMobile,
     rows,
   ]);
 
@@ -188,7 +188,10 @@ const SpeechesDiagram = () => {
           isDesktop && !isSmallHeight
             ? boxRef.current.clientHeight
             : boxRef.current.clientHeight * 0.9;
-        const newWidth = boxRef.current.clientWidth;
+        const newWidth =
+          !isLargerMobile && isSmallHeight
+            ? boxRef.current.clientWidth * 1.68
+            : boxRef.current.clientWidth;
 
         setContainerHeight(newHeight);
         setContainerWidth(newWidth);
@@ -200,7 +203,7 @@ const SpeechesDiagram = () => {
 
     onResize();
     window.addEventListener("resize", onResize);
-  }, [isDesktop, calculateSpacing, drawChart, isSmallHeight]);
+  }, [isDesktop, calculateSpacing, drawChart, isSmallHeight, isLargerMobile]);
 
   return (
     <Box sx={wrapperStyle}>
@@ -275,13 +278,13 @@ const SpeechesDiagram = () => {
                 <Typography variant="body1">
                   {controlMode === ControlMode.SpeechesCount
                     ? "Parlament"
-                    : !isMobile
+                    : !isLargerMobile
                     ? "Tausend Zeichen"
                     : "Zeichen"}
                 </Typography>
                 <WheelPicker
                   isSpeechesLength={
-                    controlMode === ControlMode.SpeechesLength && isMobile
+                    controlMode === ControlMode.SpeechesLength && isLargerMobile
                   }
                   items={
                     controlMode === ControlMode.SpeechesCount
