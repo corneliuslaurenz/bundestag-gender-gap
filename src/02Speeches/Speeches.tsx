@@ -411,7 +411,7 @@ function Speeches() {
               },
             }}
           >
-            Nur 23 % aller Reden
+            Nur 22 % aller Reden
           </Typography>
           <Typography variant="h2">
             wurden von 1949 bis 2023 im Durchschnitt von Frauen gehalten.
