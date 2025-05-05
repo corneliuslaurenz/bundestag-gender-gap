@@ -411,10 +411,10 @@ function AboutPage({
                   Abgeordneten, wird in den frühen Jahrzehnten des Deutschen
                   Bundestags auf eine verminderte Datenlage zurückgegriffen.
                   Zudem fehlen Daten in wenigen Jahren, weshalb dies bei der
-                  Betrachtung der Analyseergebnisse zu beachten ist. Da die
-                  Anzahlen von Reaktionen pro Rede bei Frauen und Männern sehr
-                  nah beieinanderliegen, lässt sich lediglich von einem zu
-                  erkennenden Trend sprechen.
+                  Betrachtung der Analyseergebnisse zu beachten ist. Während bei
+                  den Top 10 der Redeanteile Jahre mit mehr Reden stärker
+                  zählen, fließen diese in der Themenverteilung in der Übersicht
+                  gleichgewichtet ein.
                 </Typography>
               </Box>
             </>
