@@ -11,20 +11,25 @@ The data basis was extracted by Ana Calotescu-Baluteanu and used for a NLP analy
 
 ## Content
 
+### Extracting data
+
+- ./python:
+  - Code for extracting additional data
+
 ### Product design
 
-- productDesign/screenDesignsBtgg.pdf:
+- ./productDesign/screenDesignsBtgg.pdf:
   - Screen designs
-- productDesign/wireFramesBtgg.pdf
+- ./productDesign/wireFramesBtgg.pdf
   - Wire frames
 
 ### Source code
 
-- src/00LandingPage, src/01Overview, src/02Speeches, src/03Topics:
+- ./src/00LandingPage, ./src/01Overview, ./src/02Speeches, ./src/03Topics:
   - Main pages of the application
-- src/InformationSections:
+- ./src/InformationSections:
   - Pages for side informations
-- src/common:
+- ./src/common:
   - Components, data, hooks, constants, utils
 
 ## Main libraries
