@@ -408,7 +408,7 @@ function AboutPage({
                   )}
                   Das Geschlecht der Abgeordneten konnte größtenteils zugeordnet
                   werden. Aufgrund der zunehmenden Anzahl an weiblichen
-                  Abgeordneten, wird in den frühen Jahrzehnten des Deutschen
+                  Abgeordneten wird in den frühen Jahrzehnten des Deutschen
                   Bundestags auf eine verminderte Datenlage zurückgegriffen.
                   Zudem fehlen Daten in wenigen Jahren, weshalb dies bei der
                   Betrachtung der Analyseergebnisse zu beachten ist. Während bei
